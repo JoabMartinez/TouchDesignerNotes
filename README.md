@@ -151,6 +151,15 @@ or
                     
                     outcome = you have 2.5 cats                    
 
+You can multi/add/subtr/divide stuff up using variables and printing
+
+ex 1.
+
+    my_int = 10
+    my_other_int = 20
+    print (my_int + my_other_int)
+    
+                    outcome = 30
 **Terms:**
 
 **Print** - Prints whatever we have inside the quotes
