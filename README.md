@@ -77,6 +77,25 @@ When you multiply with a Boolean then you are multiplying 1(True) or 0(False)
        print (line1, line2, line3, line4)
        
                       Same outcome as top
+                      
+ex 4. lastly, this way
+
+        line1 = "I can imagine a magical situation"
+        line2 = "where I want to print"
+        line3 = "out something on multiple lines"
+        line4 = "right?"
+        print (line1)
+        print (line2)
+        print (line3)
+        print (line4)
+        new_line = '\n'
+        
+        print (line1, new_line, line2, new_line, line3, new_line, line4)
+        
+                     outcome = I can imagine a magical situation
+                               where I want to print
+                               out something on multiple lines
+                               right?
 
 **Terms:**
 Print - Prints whatever we have inside the quotes
