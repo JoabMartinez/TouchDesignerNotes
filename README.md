@@ -13,6 +13,8 @@ How to use the scripting element of Python to let us achieve particular ends.
 
 **Use Text DAT to code**
 
+**Strings and Integers/Booleans can't go together**
+
 You can multiply using Python by using a variable or a float and multi/add/subtr/divide it
   
   my_number = 2
@@ -105,6 +107,33 @@ ex 4. lastly, this way
                                where I want to print
                                out something on multiple lines
                                right?      
+                               
+**Substitution**
+    
+ex 1.    
+    
+    text = "hey there %s"
+    noun = "monster"
+    print (text % noun)
+    
+                     outcome = hey there monster
+                     
+    now with an adjective and a verb...
+    text = "hey there %s you are pretty %a when you are %v"
+    noun = "monster"
+    adj = "spicy"
+    verb = "slashing"
+    print (text % (noun, adj, verb))
+    
+                    outcome = hey there monster you are pretty spicy when you are slashing
+                 
+ex 2.
+    
+    text = "you have %d cats
+    cats = 2
+    print (text % cats)
+    
+                    outcome = you have 2 cats
 
 **Terms:**
 
@@ -127,3 +156,13 @@ ex 4. lastly, this way
   ex. text= "Hello stranger"     text is the vatiable
   
 **Multi-Line string** - When you got text that runs over multiple lines
+  ex. example on top
+
+**/n** - New line when you want to print.  
+  ex. example on top
+
+**%s** - Indicator coming in that is a string
+  ex. example on top
+  
+**%d** - Digits
+  ex. example on top
