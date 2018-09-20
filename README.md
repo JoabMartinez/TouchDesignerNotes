@@ -14,22 +14,33 @@ How to use the scripting element of Python to let us achieve particular ends.
 **Use Text DAT to code**
 
 You can multiply using Python by using a variable or a float and multi/add/subtr/divide it
+  
   my_number = 2
   print(my_number * 2)
-                       **outcome** = 4
+                       
+                       outcome = 4
                        
 When you multiply with a Boolean then you are multiplying 1(True) or 0(False)
+  
   my_bool = True
   print (my_bool *2)
-                      **outcome** = 2
+                      
+                      outcome = 2
   my_bool = False
   print (my_bool *2)
-                      **outcome** = 0
+                      
+                      outcome = 0
                       
  When you want to print something in multipile lines then...
+ 
+ 
  /n = new Line
+  
+  
   ex. I can imagine a magical situation n/where I want to print n/out something on multiple lines n/right?
-                      **outcome** = I can imagine a magical situation
+                      
+                      
+                      outcome = I can imagine a magical situation
                                 where I want to print
                                 out something on multiple lines
                                 right?
