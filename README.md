@@ -134,6 +134,22 @@ ex 2.
     print (text % cats)
     
                     outcome = you have 2 cats
+                    
+ex 3.
+
+    text = "you have %r cats
+    cats = blue
+    print (text % cats)
+                    
+                    outcome = you have blue cats
+     
+or     
+                    
+    text = "you have %r cats
+    cats = 2.5
+    print (text % cats)
+                    
+                    outcome = you have 2.5 cats                    
 
 **Terms:**
 
@@ -156,16 +172,19 @@ ex 2.
   ex. text= "Hello stranger"     text is the vatiable
   
 **Multi-Line string** - When you got text that runs over multiple lines
-  ex. example on top
+  ex. example above
 
 **/n** - New line when you want to print.  
-  ex. example on top
+  ex. example above
 
 **%s** - Indicator coming in that is a string
-  ex. example on top
+  ex. example above
   
-**%d** - Digits
-  ex. example on top
+**%d** - Digits. Only returns whole numbers
+  ex. example above
+  
+ **%r** - can put anything like whole numbers or decimals
+  ex. example above
   
 **str** - converts a Integer/Float to a string
   ex. str(2)
