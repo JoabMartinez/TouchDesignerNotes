@@ -13,7 +13,7 @@ How to use the scripting element of Python to let us achieve particular ends.
 
 **Use Text DAT to code**
 
-**Strings and Integers/Booleans can't go together**
+**Strings and Integers/Float can't go together**
 
 You can multiply using Python by using a variable or a float and multi/add/subtr/divide it
   
@@ -166,3 +166,6 @@ ex 2.
   
 **%d** - Digits
   ex. example on top
+  
+**str** - converts a Integer/Float to a string
+  ex. str(2)
