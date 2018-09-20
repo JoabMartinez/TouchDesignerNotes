@@ -37,13 +37,46 @@ When you multiply with a Boolean then you are multiplying 1(True) or 0(False)
  /n = new Line
   
   
-  ex. I can imagine a magical situation n/where I want to print n/out something on multiple lines n/right?
+  ex 1. I can imagine a magical situation n/where I want to print n/out something on multiple lines n/right?
                       
                       
                       outcome = I can imagine a magical situation
                                 where I want to print
                                 out something on multiple lines
                                 right?
+                                
+  ex 2. Make a Variable called text
+        
+        
+        text = '''I can imagine a magical situation where I want to print out something on multiple lines right?'''
+        print (text)
+        
+                      outcome = I can imagine a magical situation
+                                where I want to print
+                                out something on multiple lines
+                                right?
+                                
+  ex 3. Define the Lines individually
+  
+        line1 = "I can imagine a magical situation"
+        line2 = "where I want to print"
+        line3 = "out something on multiple lines"
+        line4 = "right?"
+        print (line1)
+        print (line2)
+        print (line3)
+        print (line4)
+        
+                      outcome = I can imagine a magical situation
+                                where I want to print
+                                out something on multiple lines
+                                right?
+                                
+       or print it this way
+       
+       print (line1, line2, line3, line4)
+       
+                      Same outcome as top
 
 **Terms:**
 Print - Prints whatever we have inside the quotes
@@ -58,3 +91,4 @@ Booleans - True or False Statements. They are evaluated with 1's and 0's.     (l
   ex. print ("True")  or print ("False")
 Variables - It is nothing but just reserves memory location to store value    (look at C# notes)
   ex. text= "Hello stranger"     text is the vatiable
+Multi-Line string = When you got text that runs over multiple lines
