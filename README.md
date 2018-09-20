@@ -110,14 +110,20 @@ ex 4. lastly, this way
 
 **Print** - Prints whatever we have inside the quotes
   ex. print ("Hello World")
+  
 **String** - A string is a list of characters that are in order that don't include any numbers.
   ex. print ("This is a string")
+  
 **Integer** - A Whole number                (look at C# notes)
   ex. print ("5")
+  
 **Float** - A number with a decimal         (look at C# notes)
   ex. print ("5.1")
+  
 **Booleans** - True or False Statements. They are evaluated with 1's and 0's.     (look at C# notes)
   ex. print ("True")  or print ("False")
+  
 **Variables** - It is nothing but just reserves memory location to store value    (look at C# notes)
   ex. text= "Hello stranger"     text is the vatiable
+  
 **Multi-Line string** - When you got text that runs over multiple lines
