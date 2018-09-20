@@ -93,9 +93,18 @@ ex 4. lastly, this way
         print (line1, new_line, line2, new_line, line3, new_line, line4)
         
                      outcome = I can imagine a magical situation
+                                where I want to print
+                                out something on multiple lines
+                                right?
+                                
+      but when you add it...
+      
+      print (line1 + new_line + line2 + new_line + line3 + new_line  + line4)
+      
+                     outcome = I can imagine a magical situation
                                where I want to print
                                out something on multiple lines
-                               right?
+                               right?      
 
 **Terms:**
 Print - Prints whatever we have inside the quotes
