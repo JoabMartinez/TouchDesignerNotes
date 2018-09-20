@@ -31,7 +31,7 @@ When you multiply with a Boolean then you are multiplying 1(True) or 0(False)
                       
                       outcome = 0
                       
- When you want to print something in multipile lines then...
+ When you want to print something in multiple lines then...
  
  
  /n = new Line
